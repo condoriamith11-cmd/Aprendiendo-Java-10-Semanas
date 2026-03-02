@@ -1,6 +1,6 @@
 # Aprendiendo Java en 10 Semanas
-Repositorio del curso Java .
-Ingenieria Informatica - Universidad Tecnica de Oruro .
+##Repositorio del curso Java
+##Ingenieria Informatica - Universidad Tecnica de Oruro .
 # # Contenido
 | Semana | Tema | Carpeta |
 |--------|------|---------|
