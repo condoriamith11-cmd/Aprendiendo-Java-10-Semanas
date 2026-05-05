@@ -10,33 +10,35 @@ public class Tarea {
         this.id = id;
         setTitulo(titulo);
         setDescripcion(descripcion);
+        this.estado = "Pendiente";
     }
     // Getters
     public int getId(){return id;}
-    public String getNombre(){ return nombre }
+    public String getTitulo(){ return titulo; }
     public String getDescripcion() {return descripcion; }
     // Setters con validaciones 
-    public void setNombre(String nombre) {
-        if (nombre != null && !nombre.trim().isEmpty()) {
-            this.nombre = nombre;
+    public void setTitulo(String titulo) {
+        if (titulo != null && !titulo.trim().isEmpty()) {
+            this.titulo = titulo;
         }
     }
     public void setDescripcion(String descripcion) {
-        if(descripcion != null && !descripcion.length() >= 5)
+        if(descripcion != null && descripcion.length() >= 5)
             this.descripcion = descripcion;
     }
     public void completar() {
-        if(!estado.equals("Completada")) 
+        if(!estado.equals("Completada")) {
             estado = "Completada";
             System.out.println("Tarea completada!!!");
-        else 
-            System.out.println("La tarea ya esta completada...");
+        }else{
+        System.out.println("La tarea ya esta completada...");
+        }
     }
     public void mostrarInfo() {
-        System.out.println("ID: %d | Nombre: %s | Tel: %s%n", id, nombre, telefono);
+        System.out.printf("ID: %d | Estado: %s%nTitulo: %s%nDescripcion: %s%n", id, estado, titulo, descripcion);
     }
-    public void estaCompletada() {
-        if(estado.equals("Comletada"))
+    public boolean estaCompletada() {
+        if(estado.equals("Completada"))
             return true;
         else 
             return false;
