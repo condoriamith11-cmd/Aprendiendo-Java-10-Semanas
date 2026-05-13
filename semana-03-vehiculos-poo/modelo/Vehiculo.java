@@ -15,4 +15,5 @@ public abstract class Vehiculo{
     public String getInfo(){
         return marca + " " + modelo + " (" + anio + ") ";
     }
+
 }
