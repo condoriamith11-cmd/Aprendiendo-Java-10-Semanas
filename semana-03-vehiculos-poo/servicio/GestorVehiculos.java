@@ -67,7 +67,7 @@ public class GestorVehiculos {
             }
         }
     }
-    public void demostrarPolimorfiasmo(){
+    public void demostrarPolimorfismo(){
         System.out.println("\n=== acelerar() en toda la flota ===");
         for (Vehiculo v : vehiculos){
             v.acelerar(); // cada tipo ejecuta su propia version
