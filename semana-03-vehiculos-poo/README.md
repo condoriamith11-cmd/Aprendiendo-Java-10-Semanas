@@ -21,6 +21,8 @@ El programa permite registrar distintos tipos de vehículos, mostrar informació
          +-------------+
                |
       <<Electrico>> (interface)
+```
+---
 
 ## 3. Decisiones de diseño
 
