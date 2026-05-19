@@ -11,7 +11,7 @@ import java.util.ArrayList;
 public class ManejadorJSON {
     
     //GsonBuilder con prettyPrinting hace el JSON legible
-    private static final Gson gson = new Gson Builder().setPrettyPrinting().create();
+    private static final Gson gson = new GsonBuilder().setPrettyPrinting().create();
 
     // Guardar lista en archivo JSON
     public static void guardar(ArrayList<Contacto> lista, String rutaArchivo){
