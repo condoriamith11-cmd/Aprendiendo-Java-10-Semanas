@@ -16,7 +16,7 @@ public class Contacto {
     public String getId(){
         return id;
     }
-    public Stirng getNombre(){
+    public String getNombre(){
         return nombre;  
     }
     public String getTelefono(){
