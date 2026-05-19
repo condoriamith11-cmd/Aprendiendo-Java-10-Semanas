@@ -12,9 +12,8 @@ target /
 # Archivos del sistema
 .DS_Store
 Thumbs . db
-target/
-*.class
-*.jar
+
+# Maven Wrapper
 .mvn/
 
 
