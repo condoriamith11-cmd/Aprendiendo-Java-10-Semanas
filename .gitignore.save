@@ -1,0 +1,20 @@
+# Archivos compilados de Java
+*.class
+*.jar
+# Carpetas de salida
+ot /
+bin /
+target /
+# Archivos de IDE
+.idea /
+.vscode /
+*.iml
+# Archivos del sistema
+.DS_Store
+Thumbs . db
+
+# Maven Wrapper
+.mvn/
+
+
+
