@@ -1,0 +1,52 @@
+[
+  {
+    "id": "C001",
+    "nombre": "Juan Perez",
+    "telefono": "72345678"
+  },
+  {
+    "id": "C002",
+    "nombre": "Maria Lopez",
+    "telefono": "79876543"
+  },
+  {
+    "id": "C003",
+    "nombre": "Pedro Quispe",
+    "telefono": "68112233"
+  },
+  {
+    "id": "C004",
+    "nombre": "Ana Torres",
+    "telefono": "71234567"
+  },
+  {
+    "id": "C005",
+    "nombre": "Luis Fernandez",
+    "telefono": "73456789"
+  },
+  {
+    "id": "C006",
+    "nombre": "Carla Mendoza",
+    "telefono": "76543218"
+  },
+  {
+    "id": "C007",
+    "nombre": "Diego Ramos",
+    "telefono": "74561238"
+  },
+  {
+    "id": "C008",
+    "nombre": "Sofia Herrera",
+    "telefono": "78965412"
+  },
+  {
+    "id": "C009",
+    "nombre": "Miguel Castro",
+    "telefono": "70124589"
+  },
+  {
+    "id": "C010",
+    "nombre": "Valeria Flores",
+    "telefono": "77654321"
+  }
+]
