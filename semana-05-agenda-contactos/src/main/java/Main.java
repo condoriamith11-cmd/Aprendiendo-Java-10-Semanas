@@ -17,16 +17,20 @@ public class Main {
                     break;
                 case 2: listarContacto();
                     break;
-                case 3: buscarContacto();
+                case 3: listarContactoConEmail();
                     break;
-                case 4: eliminarContacto();
+                case 4: buscarContactoId();
                     break;
-                case 5: System.out.println("Adios!");
+                case 5: buscarContactoNombre();
+                    break;
+                case 6: eliminarContacto();
+                    break;
+                case 7: System.out.println("Adios!");
                     break;
                 default: System.out.println("Opcion Invalida.");
                     break;
             }
-        }while(opcion != 5);
+        }while(opcion != 7);
         sc.close();
     }
 
@@ -41,9 +45,11 @@ public class Main {
         System.out.println("\n=== AGENDA ===");
         System.out.println("1. Agregar contacto");
         System.out.println("2. Listar Todos");
-        System.out.println("3. Buscar por ID");
-        System.out.println("4. Eliminar");
-        System.out.println("5. Salir");
+        System.out.println("3. Listar contactos con Email");
+        System.out.println("4. Buscar por ID");
+        System.out.println("5- Buscar por Nombre");
+        System.out.println("6. Eliminar");
+        System.out.println("7. Salir");
         System.out.println("Opcion: ");
     }
 
@@ -77,17 +83,37 @@ public class Main {
         for (var c: lista)
             System.out.println(c);
     }
-
-    static void buscarContacto() {
+    static void listarContactoConEmail(){
+    var lista = agenda.listarTodos();
+    if(lista.isEmpty()){
+        System.out.println("No hay contactos.");
+        return;
+    }
+    System.out.println("\n=== CONTACTOS CON EMAIL (" + agenda.totalConEmail() + ") ===");
+    for(var c : lista){
+        if(c.getEmail() != null && !c.getEmail().trim().isEmpty()){
+            System.out.println(c);
+        }
+    }
+}
+    static void buscarContactoId() {
         System.out.print("ID a buscar: ");
         String id = sc.nextLine();
         try{
-            System.out.println(agenda.buscar(id));
+            System.out.println(agenda.buscarPorId(id));
         } catch(ContactoNoEncontradoException e){
             System.out.println(e.getMessage());
         }
     }
-
+    static void buscarContactoNombre() {
+        System.out.print("Nombre a buscar: ");
+        String nombre = sc.nextLine();
+        try{
+            System.out.println(agenda.buscarPorNombre(nombre));
+        } catch(ContactoNoEncontradoException e){
+            System.out.println(e.getMessage());
+        }
+    }
     static void eliminarContacto(){
         System.out.println("ID a eliminar: ");
         String id = sc.nextLine();
