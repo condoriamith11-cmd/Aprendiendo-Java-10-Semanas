@@ -1,3 +1,4 @@
+
 # Agenda de Contactos con JSON
 
 ## 1. Descripción del sistema
@@ -40,4 +41,24 @@ mvn compile
 ```bash
 mvn exec:java -Dexec.mainClass="Main"
 ```
+## Capturas del programa
 
+### Ejemplo de salida 1
+
+![Ejemplo 1](capturas/Ejemplo%20de%20Salida-05-0.png)
+
+### Ejemplo de salida 2
+
+![Ejemplo 2](capturas/Ejemplo%20de%20Salida-05-1.png)
+
+### Ejemplo de salida 3
+
+![Ejemplo 3](capturas/Ejemplo%20de%20Salida-05-2.png)
+
+### Ejemplo de salida 4
+
+![Ejemplo 4](capturas/Ejemplo%20de%20Salida-05-3.png)
+
+### Persistencia de datos
+
+![Persistencia](capturas/Ejemplo%20Salida(persistencia%20de%20datos)-05-4.png)
