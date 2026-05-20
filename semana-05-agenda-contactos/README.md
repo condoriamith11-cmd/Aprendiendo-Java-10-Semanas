@@ -35,7 +35,7 @@ El uso de JSON permite que los datos sean fáciles de leer, modificar y recupera
 mvn compile
 ```
 
-## Compilar y Ejecutar (si la clase se llama Main)
+### Compilar y Ejecutar (si la clase se llama Main)
 
 ```bash
 mvn exec:java -Dexec.mainClass="Main"
