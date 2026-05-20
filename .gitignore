@@ -2,16 +2,16 @@
 *.class
 *.jar
 # Carpetas de salida
-out /
-bin /
-target /
+out/
+bin/
+target/
 # Archivos de IDE
-.idea /
-.vscode /
+.idea/
+.vscode/
 *.iml
 # Archivos del sistema
 .DS_Store
-Thumbs . db
+Thumbs.db
 
 # Maven Wrapper
 .mvn/
