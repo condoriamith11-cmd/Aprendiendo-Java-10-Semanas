@@ -29,16 +29,22 @@ public class AgendaContactos {
         contactos.add(c);
         persistir(); // Guardar inmediatamente
     }
-    public Contacto buscar(String id)throws ContactoNoEncontradoException {
+    public Contacto buscarPorId(String id)throws ContactoNoEncontradoException {
         for(Contacto c : contactos){
             if(c.getId().equals(id))
                 return  c;
         }
-        throw new ContactoNoEncontradoException("No existe xontacto con ID: " + id);
+        throw new ContactoNoEncontradoException("No existe contacto con ID: " + id);
     }
-
+    public Contacto buscarPorNombre(String nombre)throws ContactoNoEncontradoException {
+    for(Contacto c : contactos){
+        if(c.getNombre().equalsIgnoreCase(nombre))
+            return c;
+    }
+    throw new ContactoNoEncontradoException("No existe contacto con nombre: " + nombre);
+}
     public void eliminar(String id) throws ContactoNoEncontradoException{
-        Contacto c = buscar(id);
+        Contacto c = buscarPorId(id);
         contactos.remove(c);
         persistir();
     }
@@ -50,4 +56,14 @@ public class AgendaContactos {
     public int total(){
         return contactos.size();
     }
+    
+    public int totalConEmail(){
+    int contador = 0;
+    for(Contacto c : contactos){
+        if(c.getEmail() != null && !c.getEmail().trim().isEmpty()){
+            contador++;
+        }
+    }
+    return contador;
+}
 }
