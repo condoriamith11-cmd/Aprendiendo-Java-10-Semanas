@@ -2,51 +2,61 @@
   {
     "id": "C001",
     "nombre": "Juan Perez",
-    "telefono": "72345678"
+    "telefono": "72345678",
+    "email": "juan@gmail.com"
   },
   {
     "id": "C002",
     "nombre": "Maria Lopez",
-    "telefono": "79876543"
+    "telefono": "79876543",
+    "email": "maria@hotmail.com"
   },
   {
     "id": "C003",
     "nombre": "Pedro Quispe",
-    "telefono": "68112233"
+    "telefono": "68112233",
+    "email": "pedro@yahoo.com"
   },
   {
     "id": "C004",
     "nombre": "Ana Torres",
-    "telefono": "71234567"
+    "telefono": "71234567",
+    "email": "ana@email.com"
   },
   {
     "id": "C005",
     "nombre": "Luis Fernandez",
-    "telefono": "73456789"
+    "telefono": "73456789",
+    "email": "luis@gmail.com"
   },
   {
     "id": "C006",
     "nombre": "Carla Mendoza",
-    "telefono": "76543218"
+    "telefono": "76543218",
+    "email": "carla@hotmail.com"
   },
   {
     "id": "C007",
     "nombre": "Diego Ramos",
-    "telefono": "74561238"
+    "telefono": "74561238",
+    "email": "diego@gmail.com"
   },
   {
     "id": "C008",
     "nombre": "Sofia Herrera",
-    "telefono": "78965412"
+    "telefono": "78965412",
+    "email": "sofia@email.com"
   },
   {
     "id": "C009",
     "nombre": "Miguel Castro",
-    "telefono": "70124589"
+    "telefono": "70124589",
+    "email": "miguel@yahoo.com"
   },
   {
     "id": "C010",
     "nombre": "Valeria Flores",
-    "telefono": "77654321"
+    "telefono": "77654321",
+    "email": "valeria@gmail.com"
   }
 ]
