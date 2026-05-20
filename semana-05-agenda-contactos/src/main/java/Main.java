@@ -55,8 +55,10 @@ public class Main {
             String nombre = sc.nextLine();
             System.out.println("Telefono: ");
             String tel = sc.nextLine();
+            System.out.println("Email: ");
+            String email = sc.nextLine();
 
-            agenda. agregar(new Contacto(id, nombre, tel));
+            agenda. agregar(new Contacto(id, nombre, tel, email));
             System.out.println("Contacto Guardado. ");
         } catch(ContactoExistenteException e) {
             System.out.println("Error: " + e.getMessage());
