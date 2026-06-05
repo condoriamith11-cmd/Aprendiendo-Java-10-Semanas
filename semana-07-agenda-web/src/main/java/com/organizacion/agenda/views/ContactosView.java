@@ -16,6 +16,7 @@ public class ContactosView extends VerticalLayout {
         H1 titulo = new H1("Contactos");
         Paragraph mensaje = new Paragraph("Aqui apareceran los contactos. Proxima semana");
         Button volver = new Button("Volver al inicio");
+        // Navegacion para retornar de contactos a inicio
         volver.addClickListener(e -> getUI().ifPresent(ui -> ui.navigate("")));
         Notification.show("Visita de contactos cargada");
         add(titulo, mensaje, volver);

@@ -18,6 +18,7 @@ public class InicioView extends VerticalLayout{
         H2 subtitulo = new H2("Tu agenda personal");
         Paragraph descripcion = new Paragraph("Guarda, edita y busca contactos en un solo lugar");
         Button verContactos = new Button("Ver contactos");
+        // Navegacion para ir hacia contactos
         verContactos.addClickListener(e -> getUI().ifPresent(ui -> ui.navigate("contactos")));
         add(titulo,subtitulo,descripcion,verContactos);
     }
