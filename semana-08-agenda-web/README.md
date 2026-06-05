@@ -2,27 +2,27 @@
 
 ## Descripción
 
-Esta aplicación web permite gestionar una agenda de contactos mediante una interfaz desarrollada con Vaadin. Incluye una vista de inicio con información general de la aplicación y una vista de contactos donde se muestran tarjetas con datos de ejemplo. La navegación entre vistas se realiza mediante una barra superior sin recargar la página. :contentReference[oaicite:0]{index=0}
+Esta aplicación web permite gestionar una agenda de contactos mediante una interfaz desarrollada con Vaadin. Incluye una vista de inicio con información general de la aplicación y una vista de contactos donde se muestran tarjetas con datos de ejemplo. La navegación entre vistas se realiza mediante una barra superior sin recargar la página.
 
 ## Componentes utilizados
 
 ### 1. AppLayout
-Contenedor principal de la aplicación que mantiene una barra de navegación visible en todas las vistas. :contentReference[oaicite:1]{index=1}
+Contenedor principal de la aplicación que mantiene una barra de navegación visible en todas las vistas. 
 
 ### 2. MenuBar
-Componente utilizado para mostrar las opciones de navegación entre las vistas Inicio y Contactos. :contentReference[oaicite:2]{index=2}
+Componente utilizado para mostrar las opciones de navegación entre las vistas Inicio y Contactos. 
 
 ### 3. RouterLink
-Permite cambiar de vista mediante enlaces sin recargar la aplicación web. :contentReference[oaicite:3]{index=3}
+Permite cambiar de vista mediante enlaces sin recargar la aplicación web. 
 
 ### 4. Avatar
-Muestra las iniciales de cada contacto dentro de las tarjetas de información. :contentReference[oaicite:4]{index=4}
+Muestra las iniciales de cada contacto dentro de las tarjetas de información.
 
 ### 5. VaadinIcon
-Se utiliza para representar visualmente el teléfono y correo electrónico de cada contacto. :contentReference[oaicite:5]{index=5}
+Se utiliza para representar visualmente el teléfono y correo electrónico de cada contacto. 
 
 ### 6. Div
-Componente contenedor utilizado para construir la clase reutilizable `TarjetaContacto`. :contentReference[oaicite:6]{index=6}
+Componente contenedor utilizado para construir la clase reutilizable `TarjetaContacto`. 
 
 ## Cómo ejecutar la aplicacion
 
