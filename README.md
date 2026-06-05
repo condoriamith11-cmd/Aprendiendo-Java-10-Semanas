@@ -9,7 +9,7 @@
 | 3 | POO 2da. Parte | semana -03 - vehiculos - poo / |
 | 4 | Collections FrameWork | semana -04 - estudiantes - collections / |
 | 5 | Excepciones y persistencia JSON | semana -05 - agenda - contactos / |
-| 6 | Java Moderno + Testing con Unit 5 | semana -06 - agenda - modernizada / | 
+| 6 | Java Moderno + Testing con JUnit 5 | semana -06 - agenda - modernizada / | 
 | ... | ... | ... |
 ## Autor
 Condori Chambi Amith Alejandro
