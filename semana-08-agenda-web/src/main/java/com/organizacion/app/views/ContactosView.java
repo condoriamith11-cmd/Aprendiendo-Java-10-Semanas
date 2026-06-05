@@ -39,7 +39,7 @@ public class ContactosView extends VerticalLayout {
         // Pie de pagina
         Div footer = new Div(new Span("Agenda de contactos v1.0"));
         footer.setWidthFull();
-        add(contenido, false);
+        add(contenido, footer);
         expand(contenido);
     }
 }
